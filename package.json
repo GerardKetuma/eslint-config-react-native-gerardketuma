@@ -1,14 +1,15 @@
 {
   "name": "eslint-config-react-native-gerardketuma",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "My eslint configuration for React Native Apps written in TypeScript.",
   "main": "index.js",
   "scripts": {
-    "test": "eslint -c index.js tests/*.tsx --fix"
+    "test": "eslint -c index.js tests/*.tsx --fix",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GerardKetuma/eslint-config-react-native-gerardketuma.git"
+    "url": "https://github.com/GerardKetuma/eslint-config-react-native-gerardketuma.git"
   },
   "keywords": [
     "eslint",
@@ -25,7 +26,8 @@
   "homepage": "https://github.com/GerardKetuma/eslint-config-react-native-gerardketuma#readme",
   "devDependencies": {
     "eslint": "^7.4.0",
-    "typescript": "^3.9.6"
+    "typescript": "^3.9.6",
+    "semantic-release": "^17.1.1"
   },
   "peerDependencies": {
     "eslint": ">= 6.0.0",

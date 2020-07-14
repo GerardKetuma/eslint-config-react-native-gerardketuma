@@ -1,5 +1,7 @@
 # ESLINT-CONFIG-REACT-NATIVE-GERARDKETUMA
 
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+
 This is my eslint configuration for React Native. I use this across all my React Native projects.
 
 ## INSTALLATION

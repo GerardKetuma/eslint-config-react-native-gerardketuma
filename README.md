@@ -25,3 +25,34 @@ Add to your eslint config (`.eslintrc`, or `eslintConfig` field in `package.json
 ```
 
 _Since this project lints TypeScript projects, you must have a tsconfig.json file in your root directory._
+
+### Add Prettier config file
+
+Since this package uses Prettier to format code styles, we suggest adding a prettier config file to the root directory and setting your code editor to use a prettier plugin.
+
+#### Prettier Config:
+
+```json
+{
+  "trailingComma": "es5",
+  "tabWidth": 2,
+  "semi": false,
+  "singleQuote": true
+}
+```
+
+#### VSCode Prettier Plugin:
+
+[Prettier - Code Formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+
+#### VSCode ESLint Plugin:
+
+[VS Code ESLint extension](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+
+Set VSCode to Auto Fix ESLint errors and warnings on save:
+
+```json
+"editor.codeActionsOnSave": {
+  "source.fixAll.eslint": true
+}
+```

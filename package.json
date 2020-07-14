@@ -24,7 +24,8 @@
   },
   "homepage": "https://github.com/GerardKetuma/eslint-config-react-native-gerardketuma#readme",
   "devDependencies": {
-    "eslint": "^7.4.0"
+    "eslint": "^7.4.0",
+    "typescript": "^3.9.6"
   },
   "peerDependencies": {
     "eslint": ">= 6.0.0",

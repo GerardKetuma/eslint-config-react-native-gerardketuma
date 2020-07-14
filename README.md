@@ -1,5 +1,9 @@
 # ESLINT-CONFIG-REACT-NATIVE-GERARDKETUMA
 
+![CircleCI](https://img.shields.io/circleci/build/github/GerardKetuma/eslint-config-react-native-gerardketuma/master)
+
+![npm](https://img.shields.io/npm/v/eslint-config-react-native-gerardketuma?style=flat-square)
+
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
 This is my eslint configuration for React Native. I use this across all my React Native projects.

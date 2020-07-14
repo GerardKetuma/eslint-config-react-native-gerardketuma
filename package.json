@@ -25,9 +25,11 @@
   },
   "homepage": "https://github.com/GerardKetuma/eslint-config-react-native-gerardketuma#readme",
   "devDependencies": {
+    "commitizen": "^4.1.2",
+    "cz-conventional-changelog": "3.2.0",
     "eslint": "^7.4.0",
-    "typescript": "^3.9.6",
-    "semantic-release": "^17.1.1"
+    "semantic-release": "^17.1.1",
+    "typescript": "^3.9.6"
   },
   "peerDependencies": {
     "eslint": ">= 6.0.0",
@@ -39,5 +41,10 @@
     "@typescript-eslint/eslint-plugin": "^3.6.1",
     "@typescript-eslint/parser": "^3.6.1",
     "eslint-config-universe": "^4.0.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }

@@ -16,7 +16,7 @@ jobs:
   build-and-deploy:
     executor:
       name: node/default
-      tag: '12'
+      tag: 'lts'
     steps:
       - checkout
       - node/install-packages:
